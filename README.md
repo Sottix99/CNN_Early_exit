@@ -26,3 +26,14 @@ Since my dataset is not stored separately in train/validation/test i did it myse
 *   70% train set
 *   15% validation set
 *   15% test set
+
+## First Model : CNN
+
+I decided to use a Convolutional neural network with 4 convolutional block, a global average pooling layer and a classification block. Each convolutional block is made in this way:
+
+* 2D convolutional layer
+* Batch Normalization
+* Relu as activaction function
+* Max pooling layer
+
+I decided to plot the loss and accuracy curves both for the training and validation set. We can see how, even after only a few epochs, the model immediately begins to perform well. The model manages to achieve good results in both loss and accuracy. The best model has an accuarcy of 91,5% in the validation set and a value of 89,5% in the test set.

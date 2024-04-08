@@ -7,6 +7,7 @@ This Repository refers to the Final Project of the course [Neural Networks for D
 
 ## Abstract
 
+The aim of this work is to build a model capable of classifying diseases in corn leaves. The classes are four: Common Rust, Gray Leaf Spot, Blight, and Healthy. Three different CNN-based models are employed, with the introduction of early exit layers in the last one.
 <div style="text-align:center">
  <p align="center">
   <img src='img/leaf.png'/>

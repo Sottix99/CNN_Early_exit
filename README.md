@@ -56,7 +56,3 @@ To improve generalization, various data augmentation techniques were applied:
 - Implement other modular architectures like Mixture of Experts (MoE).
 - Experiment with additional datasets and tasks.
 
-*   70% train set
-*   15% validation set
-*   15% test set
-
